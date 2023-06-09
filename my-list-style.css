@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    display: flex;
+    height: 30em;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/Band.jpg);
+    background-position: center;
+}
+
+.head{
+    font-family: 'Arvo', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    width: 780px;
+    text-align: center;
+}
+
+body{
+    color: white;
+    background-color: #1D1E23;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 400;
+  }
+
+p{
+    padding-top: 0.5em;
+    padding-left: 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.25em;
+}
+
+
+main img{
+    max-width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.author{
+    display: flex;
+    font-size: 11px;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.artikel{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.inleiding{
+    background-color: #c41515;
+    border-radius: 5px;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
